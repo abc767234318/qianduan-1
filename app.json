@@ -1,17 +1,49 @@
 {
   "pages": [
-    "pages/about/home/home",
-    "pages/about/about/about",
-    "pages/about/log/log",
-    "pages/about/advice/advice",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/home/home",
+    "pages/baike/baike",
+    "pages/about/about",
+    "pages/advice/adivce",
+    "pages/log/log"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "智能垃圾桶",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+  "tabBar":{
+    "selectedColor":"#495056",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/baike/baike",
+        "text": "百科",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
   "sitemapLocation": "sitemap.json"
 }
