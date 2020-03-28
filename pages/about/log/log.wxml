@@ -1,0 +1,120 @@
+
+<view class="cu-timeline">
+  <view class="cu-item text-green">
+    <view class="bg-gradual-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/04/25</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>   
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/04/23</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/03/28</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/02/25</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/02/09</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/01/13</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/01/10</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2019/01/06</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-white">2018/12/24</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>扔塑料垃圾一次</view>
+        <view>上门回收垃圾一次</view>
+        <view>扔厨余垃圾一次</view>
+        <view>共获取30积分</view>
+      </view>
+    </view>
+  </view>
+</view>

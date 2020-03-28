@@ -1,0 +1,6 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{true}}"><view slot="backText"></view></cu-custom>
+<view class="padding margin">
+  <navigator url="filter" class="bg-grey padding radius">
+    <text>感谢您的支持</text>
+  </navigator>
+</view>

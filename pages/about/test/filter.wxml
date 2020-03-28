@@ -1,0 +1,21 @@
+
+<scroll-view scroll-x class="bg-white nav" scroll-with-animation scroll-left="{{scrollLeft}}">
+  <view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:for="{{1}}" wx:key bindtap="tabSelect" data-id="{{index}}">
+    Tab{{index}}
+  </view>
+</scroll-view>
+<view class="padding margin">
+  <view class="shadow-blur bg-red ABox" style="animation: show 1s 1;-webkit-animation: show 1s 1;">感谢您的支持</view>
+</view>
+
+<view class="padding margin">
+  <view class="shadow-blur bg-orange ABox">感谢您的支持</view>
+</view>
+
+<view class="padding margin">
+  <view class="shadow-blur bg-blue Box" style="animation: show 1s 1;-webkit-animation: show 1s 1;">感谢您的支持</view>
+</view>
+
+<view class="padding margin">
+  <view class="shadow-blur bg-green Box">重要的事情重复三次</view>
+</view>
