@@ -4,8 +4,9 @@
     "pages/home/home",
     "pages/baike/baike",
     "pages/about/about",
-    "pages/advice/adivce",
-    "pages/log/log"
+    "pages/advice/advice",
+    "pages/log/log",
+    "pages/test/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,20 +26,20 @@
       {
         "pagePath": "pages/baike/baike",
         "text": "百科",
-        "iconPath": "images/1.png",
-        "selectedIconPath": "images/1.png"
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "发现",
-        "iconPath": "images/1.png",
-        "selectedIconPath": "images/1.png"
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3.png"
       },
       {
         "pagePath": "pages/home/home",
         "text": "我的",
-        "iconPath": "images/1.png",
-        "selectedIconPath": "images/1.png"
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/4.png"
       }
     ]
   },

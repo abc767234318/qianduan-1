@@ -1,4 +1,6 @@
-Component({
+const app = getApp()
+
+Page({
   options: {
     addGlobalClass: true,
   },
@@ -7,6 +9,39 @@ Component({
     forksCount: 0,
     visitTotal: 0,
   },
+  onLoad: function (options) {
+    var that = this
+    console.log(app.globalData.openId)
+    console.log(app.globalData.openId)
+    wx.getStorage({//获取本地缓存
+      key: "userinformation",
+      success: function (res) {
+        console.log(res)
+        that.setData({
+          user: res.data
+        })
+      }
+    })
+    wx.request({
+      url: ('http://localhost:8080/user/getUserDetails'),
+      method:'post',
+      data: {
+        openId:'o-l0h5ePG1stxZW7REGKHdrcsCu0'
+      },
+      header: {
+        "content-type": "application/x-www-form-urlencoded", // 默认值    
+        'csrf-csrf': 'csrf-csrf'                 
+      },
+      success:function(response){
+        console.log(response)
+        that.setData({
+          userDetails:response.data.data
+        })
+      }
+    })
+  },
+
+
   attached() {
     console.log("success")
     let that = this;
@@ -29,9 +64,9 @@ Component({
         }, 20)
       } else {
         that.setData({
-          starCount: that.coutNum(3000),
-          forksCount: that.coutNum(484),
-          visitTotal: that.coutNum(24000)
+          visitTotal: that.coutNum(10),
+          starCount: that.coutNum(10),
+          forksCount: that.coutNum(200)
         })
       }
     }

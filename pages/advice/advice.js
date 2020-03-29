@@ -1,3 +1,4 @@
+const { $Message } = require('../../dist/base/index');
 const app = getApp();
 Page({
   data: {
@@ -5,14 +6,15 @@ Page({
     CustomBar: app.globalData.CustomBar,
     index: null,
     multiIndex: [0, 0, 0],
-    time: '12:01',
-    date: '2018-12-25',
-    region: ['广东省', '广州市', '海珠区'],
+    date: '2020-02-02',
+    region: ['天津市', '天津市', '北辰区'],
     imgList: [],
     modalName: null,
     textareaAValue: '',
-    textareaBValue: ''
-  },
+    textareaBValue: '',
+    visible1: false,
+ },
+  
   PickerChange(e) {
     console.log(e);
     this.setData({
@@ -97,5 +99,16 @@ Page({
     this.setData({
       textareaBValue: e.detail.value
     })
+  },
+  handleOpen1() {
+    this.setData({
+      visible1: true
+    });
+  },
+
+  handleClose1() {
+    this.setData({
+      visible1: false
+    });
   }
 })

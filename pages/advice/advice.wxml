@@ -41,5 +41,11 @@
 		<view class="title">问题详述</view>
 		<textarea maxlength="-1" disabled="{{modalName!=null}}" bindinput="textareaBInput" placeholder="请详细描述您的意见或建议"></textarea>
 	</view>
-  <button class = "btn">提交</button>
+  <view style="margin-top: 20rpx;">
+    <i-button bind:click="handleOpen1">提交成功</i-button>
+  </view>
+  <i-modal title="提交成功" visible="{{ visible1 }}" bind:ok="handleClose1" bind:cancel="handleClose1">
+    <view>感谢您的反馈</view>
+</i-modal>
+
 </form>

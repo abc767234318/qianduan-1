@@ -10,12 +10,18 @@
 		<view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:key bindtap='tabSelect' data-id="0">
 			可回收物
 		</view>
+    
+
 		<view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:key bindtap='tabSelect' data-id="1">
 			有害垃圾
 		</view>
+
+
 		<view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:key bindtap='tabSelect' data-id="2">
 			湿垃圾
 		</view>
+
+
 		<view class="cu-item {{index==TabCur?'text-green cur':''}}" wx:key bindtap='tabSelect' data-id="3">
 			干垃圾
 		</view>
@@ -25,84 +31,73 @@
 		<view class="padding-top padding-lr" wx:for="{{list}}" wx:key id="main-{{index}}">
 			<view class='cu-bar solid-bottom bg-white'>
 				<view class='action'>
-					<text class='cuIcon-title text-green'></text> {{item.name}}
+					<text class='cuIcon-title text-green'>
+					</text>{{item.name}}
 				</view>
 			</view>
-			<view class="cu-list menu-avatar" wx:if="{{item.id==0}}">
+			<view class="cu-list menu-avatar" wx:if="{{index==0}}">
 
 				<view class="cu-item" wx:for="{{list1}}" wx:for-index="index" wx:for-item="waste">
-					<view class="cu-avatar round lg" style="background-image:url(https://localhost:8080/uploads/{{waste.photo}});"></view>
+					<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
 					<view class="content">
-						<view class="text-grey">{{waste.name}}</view>
-						<view class="text-gray text-sm flex">
-							<view class="text-gray text-sm flex">
-								<text class="text-cut">{{waste.detail}}</text>
-							</view>
+						<view>
+							<text class="text-cut">{{waste.name}}</text>
+
 						</view>
-					</view>
-					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-grey sm">5</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-cut">{{waste.detail}}</text>
+						</view>
 					</view>
 				</view>
 			</view>
-
-      <view class="cu-list menu-avatar" wx:if="{{item.id==1}}">
+			<view class="cu-list menu-avatar" wx:if="{{index==1}}">
 
 				<view class="cu-item" wx:for="{{list2}}" wx:for-index="index" wx:for-item="waste">
-					<view class="cu-avatar round lg" style="background-image:url(https://localhost:8080/uploads/{{waste.photo}});"></view>
+					<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
 					<view class="content">
-						<view class="text-grey">{{waste.name}}</view>
-						<view class="text-gray text-sm flex">
-							<view class="text-gray text-sm flex">
-								<text class="text-cut">{{waste.detail}}</text>
-							</view>
+						<view>
+							<text class="text-cut">{{waste.name}}</text>
+
 						</view>
-					</view>
-					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-grey sm">5</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-cut">{{waste.detail}}</text>
+						</view>
 					</view>
 				</view>
 			</view>
-
-      <view class="cu-list menu-avatar" wx:if="{{item.id==2}}">
+			<view class="cu-list menu-avatar" wx:if="{{index==2}}">
 
 				<view class="cu-item" wx:for="{{list3}}" wx:for-index="index" wx:for-item="waste">
-					<view class="cu-avatar round lg" style="background-image:url(https://localhost:8080/uploads/{{waste.photo}});"></view>
+					<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
 					<view class="content">
-						<view class="text-grey">{{waste.name}}</view>
-						<view class="text-gray text-sm flex">
-							<view class="text-gray text-sm flex">
-								<text class="text-cut">{{waste.detail}}</text>
-							</view>
+						<view>
+							<text class="text-cut">{{waste.name}}</text>
+
 						</view>
-					</view>
-					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-grey sm">5</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-cut">{{waste.detail}}</text>
+						</view>
 					</view>
 				</view>
 			</view>
-      <view class="cu-list menu-avatar" wx:if="{{item.id==3}}">
+			<view class="cu-list menu-avatar" wx:if="{{index==3}}">
 
 				<view class="cu-item" wx:for="{{list4}}" wx:for-index="index" wx:for-item="waste">
-					<view class="cu-avatar round lg" style="background-image:url(https://localhost:8080/uploads/{{waste.photo}});"></view>
+					<view class="cu-avatar radius lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big81007.jpg);"></view>
 					<view class="content">
-						<view class="text-grey">{{waste.name}}</view>
-						<view class="text-gray text-sm flex">
-							<view class="text-gray text-sm flex">
-								<text class="text-cut">{{waste.detail}}</text>
-							</view>
+						<view>
+							<text class="text-cut">{{waste.name}}</text>
+
 						</view>
-					</view>
-					<view class="action">
-						<view class="text-grey text-xs">22:20</view>
-						<view class="cu-tag round bg-grey sm">5</view>
+						<view class="text-gray text-sm flex">
+							<text class="text-cut">{{waste.detail}}</text>
+						</view>
 					</view>
 				</view>
 			</view>
 
 		</view>
+
+
 	</scroll-view>
 </view>

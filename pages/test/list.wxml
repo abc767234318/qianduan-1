@@ -1,6 +1,13 @@
-<cu-custom bgColor="bg-gradual-green" isBack="{{true}}"><view slot="backText"></view></cu-custom>
+<i-panel title="">
+    <i-notice-bar icon="systemprompt" loop>
+        智能垃圾桶
+    </i-notice-bar>
+</i-panel>
 <view class="padding margin">
   <navigator url="filter" class="bg-grey padding radius">
     <text>感谢您的支持</text>
+  </navigator>
+  <navigator url="filter" class="bg-grey padding radius">
+    <text>查看详情</text>
   </navigator>
 </view>

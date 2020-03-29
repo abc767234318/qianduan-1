@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<!-->
+<view class="flex solid-bottom padding align-start">
+	<image class="bg-grey padding-lg margin-xs radius images" src="../../images/BasicsBg.png" mode='widthFix'></image>
+	<view class="flex flex-wrap">
+		<view class="basis-xs  margin-xs padding-sm radius">
+			<text class="text-grey">种类</text>
+		</view>
+		<view class="basis-xss  margin-xs padding-sm radius">
+			<text class="text-grey text-sm">湿垃圾百分之</text>
+		</view>
+	</view>
+</view>
+-->
+<view class="container">
+  <view class="title">{{article.title}}</view>
+  <view class="poster">
+    <image src="{{article.poster}}"></image>
+  </view>
+  <view class="content">
+    <text>{{article.content}}</text>
+  </view>
+  <view class="add_date">{{article.add_date}}</view>
+</view>

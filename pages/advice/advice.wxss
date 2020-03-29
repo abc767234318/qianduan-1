@@ -6,6 +6,6 @@
   margin-top: 100rpx;
   width:300rpx;
   height: 100rpx;
-  background-color: rgb(56, 148, 56);
+  background-color: rgba(69, 207, 69, 0.589);
   align-content: center;
 }

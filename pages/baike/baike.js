@@ -8,7 +8,7 @@ Page({
     TabCur: 0,
     MainCur: 0,
     VerticalNavTop: 0,
-    list1: [],   //可回收物
+    list1: ['废纸','玻璃'],   //可回收物
     list2: [],   //有害垃圾
     list3: [],   //湿垃圾
     list4: [],   //干垃圾
