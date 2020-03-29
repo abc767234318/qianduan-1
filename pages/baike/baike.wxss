@@ -1,4 +1,4 @@
-/* pages/baike/baike.wxss *//* pages/component/nav/nav.wxss */
+/* pages/component/nav/nav.wxss */
 .VerticalNav.nav {
   width: 200rpx;
   white-space: initial;
